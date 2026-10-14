@@ -43,6 +43,9 @@ button { cursor: pointer; }
 .site-header p { margin: 0; color: var(--muted); font-size: 14px; }
 
 .workspace { min-height: 570px; padding: clamp(24px, 5vw, 54px); border: 1px solid rgba(220, 226, 234, .92); border-radius: 24px; background: rgba(255, 255, 255, .86); box-shadow: 0 22px 60px rgba(41, 62, 96, .1); }
+.not-found { display: flex; min-height: 500px; flex-direction: column; align-items: flex-start; justify-content: center; }
+.not-found h1 { max-width: 600px; }
+.not-found > p:not(.eyebrow) { max-width: 420px; margin: 17px 0 27px; color: var(--muted); font-size: 17px; }
 .workspace-heading { display: flex; align-items: end; justify-content: space-between; gap: 24px; margin-bottom: 27px; }
 .eyebrow { margin: 0 0 7px; color: var(--blue); font-family: "DM Mono", monospace; font-size: 11px; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; }
 h1 { margin: 0; max-width: 700px; font-size: clamp(32px, 5vw, 52px); letter-spacing: -.055em; line-height: 1.04; }
